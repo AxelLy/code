@@ -8,10 +8,14 @@
     padding-top:1%;
         }
 
- a, a:hover, a:visited, a:active{
+ a, a:visited, a:active{
     text-decoration:none;
-        }
     
+        }
+a:hover{
+    color:orangered;
+    background-color:orangered;
+}
 hr{
     margin-top: 3%;
     width: 100%;
@@ -61,6 +65,18 @@ hr{
     padding-top: 5%;
     color: grey;
     font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
+}
+
+.affichertarif{
+    background-color:transparent;
+    color:orangered;
+    margin-top:35px;
+    width:90px;
+    height:30px;
+    border:2px solid;
+    padding-top:12px;
+    padding-bottom:-10px;
+    text-align: center;
 }
 
 body{
