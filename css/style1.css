@@ -7,7 +7,33 @@
     margin-top:-1%;
     padding-top:1%;
         }
-
+        .flex-container {
+            margin-top:10%;
+    border: inset;
+    padding-left: 4%;
+    padding-top: 5%;
+      
+            list-style: none;
+            display: -moz-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            flex-wrap:wrap;
+            justify-content: space-between;
+          }
+          
+          .flex-item {
+            line-height:190%;
+            width: 450px;
+            margin-top: 10px;
+            color: grey;
+            word-wrap: break-word;
+            margin-left: 0;
+            margin-bottom: 4%;
+            font-size: 17px;
+            font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
+            padding-right: 20px;
+          }
  a, a:visited, a:active{
     text-decoration:none;
     
@@ -44,29 +70,6 @@ hr{
         margin-left:10%;
         font-size:40px;
         }
-
-.atelier{
-    margin-top:10%;
-    height:400px;
-    width:100%;
-    border: inset;
-    padding-left: 4%;
-    padding-top: 5%;
-    color: grey;
-    font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
-}
-
-.cirepil{
-    margin-top:7%;
-    height:350px;
-    width:100%;
-    border: inset;
-    padding-left: 4%;
-    padding-top: 5%;
-    color: grey;
-    font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
-}
-
 .affichertarif{
     background-color:transparent;
     color:orangered;
