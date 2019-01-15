@@ -1,0 +1,208 @@
+<html>
+    <head>
+        <style>
+            #main-area{
+                margin:auto;
+                font-size: 100%;
+                color: #666;
+                background-color: #fff;
+                font-family: "Open Sans",Arial,sans-serif;
+                font-weight: 500;
+                line-height: 1.7em;
+                box-sizing: border-box;
+                display : flex;
+                flex-direction: row;
+                flex-wrap:wrap;
+                align-items: center;
+                
+                
+            }
+            #titre{
+                font-size: 32px;
+                font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
+                line-height: 1.5em;
+                padding-bottom: 10px;
+                color: #333;
+                text-align: center;
+            }
+            #text-inner{
+                padding-bottom: 0;
+                position: relative;
+                text-align: center;
+            }
+            
+           
+            .bouton{
+                color:#e55718;
+                font-size: 20px;
+                background-color:transparent;
+                border :2px solid;
+                border-radius:3px;
+                padding: .3em 1em;
+                float :right;
+            }
+            .bouton span {
+                cursor: pointer;
+                display: inline-block;
+                position: relative;
+                transition: 0.5s;
+            }
+            .bouton span:after {
+                content: '\003e';
+                position: absolute;
+                opacity: 0;
+                top: 0;
+                right: -20px;
+                transition: 0.5s;
+            }
+            .bouton:hover span {
+                color:#eee;
+                padding-right: 25px;       
+            }
+            .bouton:hover{
+                background-color:#e55718; 
+            }
+
+            .bouton:hover span:after {
+                opacity: 1;
+                right: 0;
+            }
+        
+         
+
+            form{
+                margin:auto;
+                width: 60%;
+                display : flex;
+                flex-direction: column;
+                    
+            }
+            #form_haut{
+                display:flex;
+                flex-direction: row;
+                justify-content: space-between;
+                margin-bottom: 3%;
+               
+            }
+            #nom_cli,#mail{
+                padding:16px;
+                font-size: 14px;
+                font-weight: 400;
+                width :48%;
+                background-color: #eee;
+                border:0px;
+            }
+            #msg{
+                min-height: 150px;
+                background-color: #eee;
+                border:0px;
+                margin-bottom: 3%;
+            }
+           
+            #carte{
+                display:flex;
+                flex-direction: row;
+                float: right;
+            }
+            .bottom-nav{
+                list-style-type: none;
+                display: flex;
+                flex-direction: row;
+                background-color:#c4c4c4;
+                width: 80%
+                height: 6%;
+                
+
+            }
+            .bottom-nav li{
+                
+                display: inline-block;
+            }
+           
+           
+           
+        </style>
+        <link rel="stylesheet" href="css/style1.css">
+    </head>
+    <body>
+            <div class="menu">
+                    <div style="margin-left: 200px; color: #e55718; font-size: 14px">
+                        
+                            <span>&#9742</span>&nbsp;04 89 03 66 93
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>&#9993;</span>&nbsp;sidonie@maquillagepermanentnice.fr
+                        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><font size="5">f</font></strong>
+                    </div>
+                    <img src="images/LogoSidonieMenu.png"
+                    height="65px"
+                    width="117px"
+                    style="margin-left:200px; margin-top: 15px; position:absolute"/>
+                
+                    <div style="margin-left: 800px; margin-top:40px; font-size: 16px">
+                        <a href="accueil.html" style="color:#e55718">Accueil</a>&nbsp;&nbsp;&nbsp;
+                        <a href="institut.html">L'institut</a>&nbsp;&nbsp;&nbsp;
+                        <a href="prestations.html">Prestations</a>&nbsp;&nbsp;&nbsp;
+                        <a href="tarifs.html">Tarifs</a>&nbsp;&nbsp;&nbsp;
+                        <a href="marques.html">Les marques</a>&nbsp;&nbsp;&nbsp;
+                        <a href="contact.html">Contact</a>
+                    </div>
+                    <hr>
+                    </div>
+        <div id="main-area">
+            <div id="area1">
+            <div id="text-inner">
+                <div id="titre"><h1>Contactez nous !</h1></div>
+                
+                <p><b>Maquillage Permanent Nice</b></p>
+                <p><span style="font-weight: 400;">49 Bld de Cessole</span></p>
+                <p><span style="font-weight: 400;">06100 NICE</span></p>
+                <p><a style="color: #e55718;" href="mailto:sidonie@maquillagepermanentnice.fr">sidonie@maquillagepermanentnice.fr</a></p>
+                <p><a style="color: #e55718;" href="tel:0489036693">04 89 03 66 93</a></p>
+            </div> 
+            <div id="form">
+            <form>
+                <div id="form_haut">
+                    <input type="text" name="nom" id="nom_cli" placeholder="Nom"/>
+                    <input type="text"name="email"id="mail" placeholder="Adresse mail"/>
+                </div>
+                
+                <textarea name="Message" id="msg" placeholder="Message"></textarea>
+                <div id="bouton"><button class="bouton" type="submit" id="button"><span>Envoi</span></button></div> 
+      
+            </form>
+           
+            </div>
+            </div>
+            <div id="carte"><iframe src="https://www.google.com/maps/embed?pb=" width="400" height="300" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+        </div> 
+        <footer id="main-footer">
+				
+
+		
+            <div id="et-footer-nav">
+                <div class="container">
+                    <ul id="menu-footer" class="bottom-nav">
+                        <li id="menu-item-216" class="bottom-contact"><a href="https://maquillagepermanentnice.fr/contact">Contact</a></li>
+                        <li id="menu-item-215" class="bottom-mention"><a href="https://maquillagepermanentnice.fr/mentions-legales">Mentions légales</a></li>
+                        <li id="menu-item-214" class="bottom-plan"><a href="https://maquillagepermanentnice.fr/plan-du-site">Plan du site</a></li>
+                    </ul>					
+                </div>
+            </div> <!-- #et-footer-nav -->
+
+        
+            <div id="footer-bottom">
+                <div class="container clearfix">
+            <ul class="et-social-icons">
+
+<li class="et-social-icon et-social-facebook">
+    <a href="https://www.facebook.com/sidoniemaquillagepermanent/" class="icon">
+        <span>Facebook</span>
+    </a>
+</li>
+
+</ul><div id="footer-info">© 2018 Sidonie Institut | Tous droits réservés.</div>					</div>	<!-- .container -->
+            </div>
+        </footer> <!-- #main-footer -->
+        
+	
+    </body>
+</html>
