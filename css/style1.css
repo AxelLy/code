@@ -120,7 +120,6 @@ body{
 .prestation-item{
     text-align: center;
     width: 300px;
-    color: grey;
     word-wrap: break-word;
     margin-left: 0;
     margin-bottom: 4%;
@@ -290,9 +289,13 @@ form{
 }
 
 .cils-texte{
+    -webkit-box-shadow: 4px 4px 25px -3px rgba(186,179,186,1);
+    -moz-box-shadow: 4px 4px 25px -3px rgba(186,179,186,1);
+    box-shadow: 4px 4px 25px -3px rgba(186,179,186,1);
     margin-top: 1%;
     margin-right: 16%;
-    width: 30%;
-    height: 60%;
-    background-color: orange;
+    width: 27%;
+    height: 54%;
+    padding: 1.5%;
+    word-wrap: break-word; 
 }
