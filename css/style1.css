@@ -6,6 +6,7 @@
     background-color: white;
     margin-top:-1%;
     padding-top:1%;
+    
         }
 
 .flex-container {   
@@ -60,7 +61,7 @@ hr{
             background-color:transparent;
             border :2px solid;
             border-radius:3px;
-            padding: .3em 1em;
+            padding: .6em 1.2em;
         }
         .bouton span {
             cursor: pointer;
@@ -127,7 +128,6 @@ body{
     display: -webkit-flex;
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-between;
 }
 
 .prestation-item{
@@ -146,16 +146,6 @@ body{
     -webkit-box-shadow: 11px 10px 0px 0px rgba(201,201,201,1);
     -moz-box-shadow: 11px 10px 0px 0px rgba(201,201,201,1);
     box-shadow: 11px 10px 0px 0px rgba(201,201,201,1);
-}
-
-.yeux-container{
-
-    list-style: none;
-    display: -moz-box;
-    display: -ms-flexbox;
-    display: -webkit-flex;
-    display: flex;
-    flex-wrap:wrap;
 }
 
 .yeux-item{
