@@ -54,7 +54,38 @@ hr{
     border: none; /*on supprime le style par défaut*/
         }
     
-
+        .bouton{
+            color:#e55718;
+            font-size: 20px;
+            background-color:transparent;
+            border :2px solid;
+            border-radius:3px;
+            padding: .3em 1em;
+        }
+        .bouton span {
+            cursor: pointer;
+            display: inline-block;
+            position: relative;
+            transition: 0.5s;
+        }
+        .bouton span:after {
+            content: '\003e';
+            position: absolute;
+            opacity: 0;
+            top: 0;
+            transition: 0.5s;
+        }
+        .bouton:hover span {
+            color:#eee;
+            padding-right: 25px;       
+        }
+        .bouton:hover{
+            background-color:#e55718; 
+        }
+        .bouton:hover span:after {
+            opacity: 1;
+            right: 0;
+        }
     
 .autour{
         margin-left:14%;
@@ -162,3 +193,4 @@ body{
     font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
     padding-right:10px;
 }
+
