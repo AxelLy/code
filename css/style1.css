@@ -71,6 +71,7 @@ hr{
             border :2px solid;
             border-radius:3px;
             padding: .6em 1.2em;
+    
         }
         .bouton span {
             cursor: pointer;
@@ -200,4 +201,70 @@ body{
 
 .container .letexte {
     width: 65%;
+}
+
+
+#main-area{
+    margin:auto;
+    font-size: 100%;
+    color: #666;
+    background-color: #fff;
+    font-family: "Open Sans",Arial,sans-serif;
+    font-weight: 500;
+    line-height: 1.7em;
+    box-sizing: border-box;
+    display : flex;
+    flex-direction: row;
+    flex-wrap:wrap;
+    align-items: center;  
+}
+#titre{
+    FONT-size: 22px;
+    font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
+    padding-bottom: 10px;
+    color: #333;
+    text-align: center;
+}
+#text-inner{
+    text-align: center;
+}
+form{
+    margin:auto;
+    width: 100%;
+    display : flex;
+    flex-direction: column;                   
+}
+#form_haut{
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 3%;         
+}
+#nom_cli,#mail{
+    padding:16px;
+    font-size: 14px;
+    font-weight: 400;
+    width :48%;
+    background-color: #eee;
+    border:0px;
+}
+#msg{
+    min-height: 150px;
+    background-color: #eee;
+    border:0px;
+    margin-bottom: 3%;
+}
+
+.footer{
+    height: 55px;
+    margin-left: -0.4%;
+    margin-right: -0.7%;
+}
+
+.footer{
+    color: white;
+}
+
+.msgfooter div {
+    display: inline-block;
 }
