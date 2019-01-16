@@ -1,71 +1,269 @@
 <html>
     <head>
             <link rel="stylesheet" href="css/style1.css">
+            <style>
+                .carte_row{
+                    display: flex;
+                    flex-direction: row;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    text-align: center;
+                    font-size:25px;
+                    font-family:'Playfair Display SC',Georgia,"Times New Roman",serif;
+                }
+                .tarifs{
+                    
+                    -webkit-box-shadow: 10px 21px 33px 7px rgba(222,222,222,1);
+                    -moz-box-shadow: 10px 21px 33px 7px rgba(222,222,222,1);
+                    box-shadow: 10px 21px 33px 7px rgba(222,222,222,1);
+                    padding-bottom: 8%;
+                    border:20px solid white;
+                }
+                .titres{
+                    margin-left:10%;
+                }
+                h5{
+                    color:#e55718;
+                }
+                .contact{
+                    text-align: center;   
+                    font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
+                    font-weight: 500;
+                    line-height: 1.7em;
+                    padding-top: 10%;
+                    padding-bottom: 10%;
+                }
+                .contact h1{
+                    font-size: 50px;
+                }
+                .contact p{
+                    font-size: 16px;
+                }
+            </style>
     </head>
     <body>
         <div class="menu">
-    <div style="margin-left: 200px; color:#e55718; font-size: 14px">
+        <div style="margin-left: 200px; color:#e55718; font-size: 14px">
         
             <span>&#9742</span>&nbsp;04 89 03 66 93
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>&#9993;</span>&nbsp;sidonie@maquillagepermanentnice.fr
         &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><font size="5">f</font></strong>
-    </div>
-    <img src="images/LogoSidonieMenu.png"
-    height="65px"
-    width="117px"
-    style="margin-left:200px; margin-top: 15px; position:absolute"/>
+        </div>
+        <img src="images/LogoSidonieMenu.png"
+        height="65px"
+        width="117px"
+        style="margin-left:200px; margin-top: 15px; position:absolute"/>
 
-    <div style="margin-left: 800px; margin-top:40px; font-size: 16px">
-            <a href="accueil.html">Accueil</a>&nbsp;&nbsp;&nbsp;
-            <a href="institut.html">L'institut</a>&nbsp;&nbsp;&nbsp;
-            <a href="prestations.html">Prestations</a>&nbsp;&nbsp;&nbsp;
-            <a href="tarifs.html"  style="color:#e55718">Tarifs</a>&nbsp;&nbsp;&nbsp;
-            <a href="marques.html">Les marques</a>&nbsp;&nbsp;&nbsp;
-            <a href="contact.html">Contact</a>
-    </div>
-    <hr>
-    </div>
+        <div style="margin-left: 800px; margin-top:40px; font-size: 16px">
+                <a href="accueil.html" style="color:#e55718">Accueil</a>&nbsp;&nbsp;&nbsp;
+                <a href="institut.html">L'institut</a>&nbsp;&nbsp;&nbsp;
+                <a href="prestations.html">Prestations</a>&nbsp;&nbsp;&nbsp;
+                <a href="tarifs.html">Tarifs</a>&nbsp;&nbsp;&nbsp;
+                <a href="marques.html">Les marques</a>&nbsp;&nbsp;&nbsp;
+                <a href="contact.html">Contact</a>
+        </div>
+        <hr>
+        </div>
 
-<div class="tarif" >
-    <h1><strong><br/><br/><br/>TARIFS</h1></strong>
-</div> 
+    <div class="tarif" >
+        <h1><strong><br/><br/><br/>TARIFS</h1></strong>
+    </div> 
 
-<div class="autour">
-    <h1><br/><br/> <center>CARTES CADEAUX</center><br/></h1>
-    <img src="images/tarifs/1.jpg" height="230" width="320px" >
-    <img src="images/tarifs/2.jpg" height="230" width="320px" style="margin-left: 50px">
-    <img src="images/tarifs/3.jpg" height="230" width="320px" style="margin-left:50px">
-    <div style="font-size:25px; width: 320px; height:70px; text-align:center; position:absolute; margin-top:20px">Faites un break <br/>39€</div>
-    <div style="font-size:25px; width: 320px; height:70px; text-align:center; margin-left:370px; position:absolute;margin-top:20px">Pause détente <br/>84€</div>
-    <div style="font-size:25px; width: 320px; height:70px; text-align:center; margin-left:740px;margin-top:20px">Escale bien être <br/>158€</div>
-
-
-<br/><br/><br/>
-<br/><br/><br/>
-<div class="onglerie">
-ONGLERIE
-</div>
-
-<div class="onglerie">
-BEAUTE DU REGARD
-</div>
-
-<div class="onglerie">
-MAQUILLAGE PERMANENT
-</div>
-
-<div class="onglerie">
-SOINS DU VISAGE
-</div>
+    <div class="autour">
+        <h1><br/><br/> <center>CARTES CADEAUX</center><br/></h1>
+        <div class="carte_row">
+            <div class = "break">
+                <img src="images/tarifs/1.jpg" height="230" width="320px"/>
+                <p>Faites un break<br/>39€</p>
+            </div>
+            <div clas="detente">
+                <img src="images/tarifs/2.jpg" height="230" width="320px"/>
+                <p>Pause détente <br/>84€</p>
+            </div>
+            <div class="escale">
+                <img src="images/tarifs/3.jpg" height="230" width="320px"/>
+                <p>Escale bien être <br/>158€</p>
+            </div>                    
+        </div>
 
 
-<div class="onglerie">
-SOINS DU CORPS
-</div>
 
-<div class="onglerie">
-EPILATIONS
-</div>   
+        <br/><br/><br/>
+        <br/><br/><br/>
+        <div class ="tarifs">
+            <div class="titres"><h2>ONGLERIE</h2></div>
+            <div class="onglerie">
+                <div class="beaute_PM">
+                    <h5>beauté des mains et des pieds</h5>
+                    <p>Manucure…………………………………………………………………….22€</p>
+                    <p>Spa des mains (manucure avec gommage,masque)……..35€</p>
+                    <p>Soins paraffine ajouté à un soins……………………………………9€</p>
+                    <p>Pose de vernis (couleur/french)……………………………………35€</p>
+                    <p>Beauté des pieds………………………………………………………….29€</p>
+                    <p>Spa des pieds………………………………………………………………48€</p>
+                    <p>Vernis semi-permanent(mains ou pieds………………………27€</p>
+                    <p>Dépose seule………………………………………………………………..9€</p>
+                    <p>Soin Calluspeeling®……………………………………………………..49€</p>
+                </div>
+                <div class="prothesie">
+                    <h5>Prothésie ongulaire</h5>
+                    <p>Pose complète sur chablon………………………………………..59€</p>
+                    <p>Remplissage (4 semaines max)………………………………….47€</p>
+                    <p>Gainage ongles naturels…………………………………………..47€</p>
+                    <p>Ongles cassé……………………………………………………………..5€</p>
+                    <p>Dépose + soin………………………………………………………….19€</p>
+                    <p>Remplissage à 2 semaines………………………………………….32€</p>
+                </div>
+                <div class="deco">
+                    <h5>Décos</h5>
+                    <p>Paillettes, pigments 10 ongles………………………………………..3€</p>
+                    <p>Strass unité……………………………………………………………….0,50€</p>
+                    <p>Peinture acrylique, aquarelle, gels peints à partir de………4€</p>
+                </div>
+            </div>
+            <div class="titres"><h2>BEAUTE DU REGARD</h2></div>
+            <div class="beaute">
+                <div class="regard">                    
+                    <h5>Regard</h5>
+                    <p>Teinture des cils ou sourcils………………………………….16€</p>
+                    <p>Rehaussement de cils………………………………………….44€</p>
+                    <p>Extension de cils………………………………………………….96€</p>
+                    <p>Remplissage de cils à 3 semaines………………………….46€</p>
+                    <p>Extension de cils volume Russe/3D……………………143€</p>
+                    <p>Remplissage de cils volume Russe/3D………………57€</p>
+                    <p>Rehaussement de cils + teinture de cils………………55€</p>
+                </div>
+                <div class="maquillage_miss">
+                    <h5>Maquillage miss W</h5>
+                    <p>Maquillage jour…………………………………………………………….24€</p>
+                    <p>Maquillage soir /cérémonie………………………………………….46€</p>
+                    <p>Maquillage mariée avec essai……………………………………….68€</p>
+                </div>
+            </div>
+            <div class="titres"><h2>MAQUILLAGE PERMANENT</h2></div>
+            <div class="maquillage">
+                <div class="levre">
+                    <h5>Lèvres</h5>
+                    <p>Coutour…………………………………………………………….300€</p>
+                    <p>Contour + voilage………………………………………….450€</p>
+                </div>
+                <div class="sourcil">
+                    <h5>Sourcils</h5>
+                    <p>Ombrage…………………………………………………………….300€</p>
+                    <p>Esquisse des poils………………………………………………300€</p>
+                    <p>Ombrage + poil à poil……………………………………….500€</p>    
+                </div>
+                <div class ="yeux">
+                    <h5>Yeux</h5>
+                    <p>Densification des cils hauts ………………………………………..200€</p>
+                    <p>Densification haut + bas…………………………………………….250€</p>
+                    <p>Eye liner………………………………………………………………Sur devis</p>
+                </div>
+                <div class="retouche">
+                    <h5>Retouche<br/>(une retouche comprise à faire dans les deux mois)</h5>
+                    <p>Au-delà de 2 mois ……………………………………………….Sur devis</p>
+                    <p>Dans l’année………………………………………………………………100€</p>
+                    <p>de 1 an……………………………………………………Sur devis</p>
+                </div>
+            </div>
+            <div class="titres"><h2>SOINS DU VISAGE</h2></div>
+            <div class="visage">
+                <div class="pause_C">
+                    <h5>Pauses clarté</h5>
+                    <p>Pause clarté………………………………………………………………….54€</p>
+                </div>
+                <div class="pause_S">
+                    <h5>Pauses spécifiques</h5>
+                    <p>Pause hydra source………………………………………………………68€ (Pour un peau hydratée et protégée…….1h20)</p>
+                    <p>Pause Purmat intense………………………………………………….68€ (Pour une peau purifiée et matifiée)</p>
+                    <p>Pause jeunesse délice…………………………………………………..68€ (Pour une peau lissée et hydratée)</p>
+                    <p>Pause Jeunesse + Absolue…………………………………………….68€ (Pour une peau lissée et raffermie ……..1h20)</p>
+                    <p>Pause sensi douceur…………………………………………………….68€ (Pour une peau apaisée, adoucie et hydratée……1h20)</p>
+                    <p>Pause jeunesse ++ révélatrice………………………………………76€ (Pour une peau lissée, raffermie et nourrie…….1h20)</p>
+                </div>
+            </div>
+
+            <div class="titres"><h2>SOINS DU CORPS</h2></div>
+            <div class="corps">
+            <div class="relax">
+                <h5>Soins relaxant</h5>
+                <p>Pause relaxante extrême…………………………………………..109€ (Pour une peau hydratée et relaxée……..2h)</p>
+                <p>Pause relaxante précieuse………………………………………….89€ (Pour une peau hydratée et relaxée…….1h30)</p>
+                <p>Pause relaxante fondante…………………………………………..69€ (Pour une peau hydratée et relaxée…..1h)</p>
+
+            </div>
+            <div class="energie">
+                <h5>Soins énergisants</h5>
+                <p>Pause énergisante extrême………………………………………..109€ (Pour une peau hydratée et tonifiée……..2h)</p>
+                <p>Pause énergisante précieuse………………………………………..89€ (Pour une peau hydratée et tonifiée…….1h30)</p>
+                <p>Pause énergisante fondante………………………………………..69€ (Pour une peau hydratée et tonifiée…..1h)</p>*
+                
+            </div>
+            <div class="fermerte">
+                <h5>Soins fermeté</h5>
+                <p>Pause fermeté extrême…………………………………………..109€ (Pour une peau tonifiée et raffermie……..1h45)</p>
+                <p>Pause fermeté précieuse………………………………………….89€ (Pour une peau tonifiée et raffermie…….1h15)</p>
+                <p>Pause fermeté fondante…………………………………………..69€ (Pour une peau tonifiée et raffermie…..45min)</p>
+            </div>
+            </div>
+            <div class="titres"><h2>EPILATIONS</h2></div>
+            <div class="epilation">
+                <div class="les_tarifs">
+                   <h5>Les tarifs</h5> 
+                   <p>Sourcils entretien/création………………………………………10/15€</p>
+                   <p>Lèvres…………………………………………………………………………….9€</p>
+                   <p>Sourcils + lèvres …………………………………………………………..18€</p>
+                   <p>Visage…………………………………………………………………………..20€</p>
+                   <p>Demi-bras…………………………………………………………………….19€</p>
+                   <p>Demi-jambes………………………………………………………………..18€</p>
+                   <p>Jambes entières……………………………………………………………26€</p>
+                   <p>Aisselles……………………………………………………………………….11€</p>
+                   <p>Maillot……………………………………………………………………….12€</p>
+                   <p>Brésilien……………………………………………………………………….17€</p>
+                   <p>Intégral……………………………………………………………………….24€</p>
+                   <p>Dos……………………………………………………………………………..22€</p>
+                   <p>Brésilien……………………………………………………………………….17€</p>
+
+                </div>
+                <div class="forfaits">
+                    <h5>Forfaits</h5>
+                    <p>Demi-jambes, maillot, aisselles…………………………………….34€</p>
+                    <p>Jambes entières, maillot, aisselles…………………………………89€</p>
+                    <p>Maillot échancré…………………………………………………………..+6€</p>
+                    <p>Maillot intégral……………………………………………………………+14€</p>
+                </div>
+            </div>
+            <center><a class="bouton"href="#"><span>prendre rendez-vous !</span></a></center>
+            </div>   
+                
+        </div>
+       
+        </div> 
+        <div class="contact">
+                <h1>Contactez nous !</h1>
+                <p><b>Maquillage Permanent Nice</b></p>
+                <p><span style="font-weight: 400;">49 Bld de Cessole</span></p>
+                <p><span style="font-weight: 400;">06100 NICE</span></p>
+                <p><a style="color: #e55718;" href="mailto:sidonie@maquillagepermanentnice.fr">sidonie@maquillagepermanentnice.fr</a></p>
+                <p><a style="color: #e55718;" href="tel:0489036693">04 89 03 66 93</a></p>
+                <center><a class="bouton"href="#"><span>contactez-nous !</span></a></center>
+        </div>
         
-</div>
 
+        <div class="footer" style="background-color:#C5C5C5">
+                <div class="autour">
+                         <div class="msgfooter">
+                                <div><p>Contact</p></div>
+                                <div><p style="margin-left:16px">Mentions légales</p></div>
+                                <div><p style="margin-left:16px">Plan du site</p></div>
+                         </div>
+                </div>
+            </div>
+            
+            <div class="footer" style="background-color:#ACACAC"><br/>
+                    <div class="autour">
+                         © 2018 Sidonie Institut | Tous droits réservés.
+                    </div>
+            </div>	
+    </body>
+</html>
