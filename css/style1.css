@@ -1,7 +1,7 @@
 .menu{
     width:100%;
     position:fixed;
-    height:19.5%;
+    height:17.5%;
     font-family: "Open Sans",Arial,sans-serif;
     background-color: white;
     margin-top:-1%;
@@ -37,11 +37,10 @@
     background-image: linear-gradient(90deg,#f2f4f3 0%,rgba(242,244,243,0.35) 100%),
     url(https://maquillagepermanentnice.fr/wp-content/uploads/2018/10/makeup-artist-03.jpg);
     width: 100%;
-    height: 43%;
+    height: 48%;
     text-align: center;
     background-color:#F1F0EF;
     background-size:cover;
-    margin-top:10%;
 }
 
 
@@ -363,4 +362,28 @@ h5{
 .salon-container{
     width:100%;
     justify-content: space-between;
+}
+
+.lelogo img{
+    height: 27%;
+    width: 90%;
+}
+.lepinceau img{
+    width: 100%;
+}
+
+.onglerie,.beaute,.maquillage,.visage,.corps,.epilation{
+
+    margin-left:10%;
+    margin-right: 10%;
+    font-family: "Open Sans",Arial,sans-serif;
+    
+}
+.epilation .forfaits{
+    margin-bottom: 4.75%;
+}
+.beaute_PM,.prothesie,.deco,.maquillage_miss,.regard,.levre,.sourcil,.yeux,.retouche,.pause_C,.pause_s,.relax,.energie,.fermerte,.les_tarifs,.forfaits{
+    border: 1px solid lightgrey;
+    word-wrap: break-word;
+    margin-bottom: 2.75%;
 }
