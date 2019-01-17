@@ -344,6 +344,10 @@ h5{
     padding-bottom: 0%;
 }
 
+.Instcontainer img{
+    width: 100%;
+}
+
 .texte-transparent{
     position:absolute;
     background-color:#F9F9F9;
