@@ -8,7 +8,6 @@
     padding-top:1%;   
     z-index: 999;
 }
-
 .flex-container {   
     box-shadow: 0px 17px 71px -8px rgba(189,187,189,1);
     margin-top:10%;
@@ -18,8 +17,7 @@
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
-        }
-        
+}       
 .flex-item {
     line-height:190%;
     width: 450px;
@@ -31,8 +29,7 @@
     font-size: 17px;
     font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
     padding-right: 20px;
-        }
-        
+}       
 .tarif{
     background-image: linear-gradient(90deg,#f2f4f3 0%,rgba(242,244,243,0.35) 100%),
     url(https://maquillagepermanentnice.fr/wp-content/uploads/2018/10/makeup-artist-03.jpg);
@@ -41,26 +38,23 @@
     text-align: center;
     background-color:#F1F0EF;
     background-size:cover;
- 
+    margin-top:10%;
 }
-
-
  a, a:visited, a:active{
     text-decoration:none;
-    color: grey;
-    
+    color: grey;   
 }
 a:hover{
     color:orangered;
 }
 hr{
-    margin-top: 2%;
+    margin-top:2%;
+    margin-bottom: 0;
     width: 100%;
     height: 1px;
     background-color:#F5F2EF;
     border: none; /*on supprime le style par défaut*/
-}
-    
+}   
 .bouton{
     color:#e55718;
     font-size: 20px;
@@ -92,24 +86,76 @@ hr{
 .bouton:hover span:after {
     opacity: 1;
     right: 0;
-}
-    
+}   
 .autour{
-    margin-left:14%;
-    margin-right:14%;
-
+    width: 90%;
+    margin:auto;
+   
 }
 body{
     background-color:white;
 }
-
 .prestation-container{
-
-    list-style: none;
     display: flex;
     flex-wrap: wrap;
-}
+    align-items: flex-end;
+    flex-direction: row;
+    width: 80%;
+    margin:auto;
+    color: grey; 
+    font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
+    font-size: 19px;
+    margin-bottom: 3%;
 
+}
+.colonne{
+    margin:auto;
+    
+}
+.colonne1{
+   text-align: center;
+   width: 68%;
+   margin:auto;
+}
+.colonne2{
+    margin:auto;
+    width: 80%;
+}
+.colonne3{
+   text-align: center;
+   margin:auto;
+}
+.colonne4{
+    margin:auto;   
+}
+.colonne5{
+text-align: center;
+width: 60%;
+margin:auto;
+}
+.colonne6{
+    margin:auto;
+    width: 60%;
+}
+.colonne7{
+text-align: center;
+margin:auto;
+}
+.colonne8{
+    margin: auto;
+    justify-content: space-between;
+}
+.colonne10,.colonne12{
+    width: 70%;
+}
+.colonne10{
+    width: 35%;
+    margin: auto;
+    float:right;
+}
+.respect{
+    text-align: center;
+}
 .prestation-item{
     text-align: center;
     width: 300px;
@@ -119,19 +165,16 @@ body{
     font-size: 17px;
     font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
     padding-right: 20px;
+    
 }
-
 .img{
     box-shadow: 11px 10px 0px 0px rgba(201,201,201,1);
 }
-
 .yeux-item{
     width:275px;
     color: grey;
     margin-bottom: 4%;
-
 }
-
 .yeux-texte{
     line-height:140%;
     width:70%;
@@ -143,12 +186,10 @@ body{
     font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
     padding-right: 20px;
 }
-
 .teinture-item{
     width:275px;
     color: grey;
 }
-
 .teinture-texte{
     line-height:140%;
     width: 65%;
@@ -160,12 +201,10 @@ body{
     font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
     padding-right:10px;
 }
-
 .container span {
 	display: inline-block;
 	width: 300px;
 }
-
 .texte{
     margin-top:1%;
     font-family: "Times New Roman";
@@ -177,18 +216,15 @@ body{
     font-size: 24px;
     color:black;
 }
-
 .container {
     width: 100%;
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
 }
-
 .container .letexte {
     width: 65%;
 }
-
 #main-area{
     margin:auto;
     font-size: 100%;
@@ -240,18 +276,14 @@ form{
     border:0px;
     margin-bottom: 3%;
 }
-
 .footer{
     height: 55px;
-    margin-left: -0.4%;
-    margin-right: -0.7%;
+    width: 100%;
     color:white;
 }
-
 .msgfooter div {
     display: inline-block;
 }
-
 .lelogo{
     width: 22%;
     padding-left: 14%;
@@ -269,14 +301,12 @@ form{
     display: flex;
     flex-wrap: wrap;
 }
-
 .lepinceau{
     width: 63%;
 }
 .lepinceau img{
     width: 100%;
 }
-
 .cils-texte{
     box-shadow: 4px 4px 25px -3px rgba(186,179,186,1);
     margin-top: 1%;
@@ -286,8 +316,7 @@ form{
     padding: 1.5%;
     word-wrap: break-word; 
 }
-
-.carte_row{
+.carte_row,.carte_row2{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -295,6 +324,13 @@ form{
     text-align: center;
     font-size:25px;
     font-family:'Playfair Display SC',Georgia,"Times New Roman",serif;
+    margin-bottom: 5%;
+    width: 100%;
+    
+    
+}
+.carte_row img,.carte_row2 img{
+    box-shadow: 11px 10px 0px 0px rgba(201,201,201,1);
 }
 .tarifs{
     box-shadow: 10px 21px 33px 7px rgba(222,222,222,1);
@@ -321,34 +357,25 @@ h5{
 .contact p{
     font-size: 16px;
 }
-.centre{
-    margin-left:43%;
-    
-}
 .onglerie,.beaute,.maquillage,.visage,.corps,.epilation{
-
     margin-left:10%;
     margin-right: 10%;
-    font-family: "Open Sans",Arial,sans-serif;
-    
+    font-family: "Open Sans",Arial,sans-serif;   
 }
 .epilation .forfaits{
     margin-bottom: 4.75%;
 }
-
 .salon-container{
     width:100%;
     justify-content: space-between;
 }
-
-lelogo img{
+.lelogo img{
     height: 27%;
     width: 90%;
 }
 .lepinceau img{
     width: 100%;
 }
-
 .onglerie,.beaute,.maquillage,.visage,.corps,.epilation{
 
     margin-left:10%;
@@ -364,7 +391,6 @@ lelogo img{
     word-wrap: break-word;
     margin-bottom: 2.75%;
 } 
-
 .fond{
     padding-top: 8%;
     padding-left: 10%;
@@ -372,12 +398,12 @@ lelogo img{
     height: 1209.8px;
     background-repeat: no-repeat;
     background-size:cover;
+    
 }
 .placement_img{
     border-width: 24px;
     border-color: #ffffff;
 }
-
 .Instcontainer{
     background-color: white;
     height: 100%;
@@ -386,12 +412,10 @@ lelogo img{
     flex-direction: column;
     overflow: hidden;
 }
-
 .Instcontainer span{
     padding: 3%;
     padding-bottom: 0%;
 }
-
 .texte-transparent{
     position:absolute;
     background-color:#F9F9F9;
@@ -402,6 +426,8 @@ lelogo img{
     background-color: rgba(255, 255, 255, 0.815);
     font-size: 21px;
     padding-bottom: 5px;
+    border:0px solid white;
+    word-wrap: break-word;
 }
 
 .salon-container{
@@ -411,8 +437,13 @@ lelogo img{
 
 .Instcontainer img{
     width: 100%;
+    height: auto;
 }
-
+.imgT{
+    display:inline-block;
+    position: relative;
+    max-width: 100%;
+}
 .carte_row{
     display: flex;
     flex-direction: row;
@@ -423,9 +454,6 @@ lelogo img{
     font-family:'Playfair Display SC',Georgia,"Times New Roman",serif;
 }
 .tarifs{
-    
-    -webkit-box-shadow: 10px 21px 33px 7px rgba(222,222,222,1);
-    -moz-box-shadow: 10px 21px 33px 7px rgba(222,222,222,1);
     box-shadow: 10px 21px 33px 7px rgba(222,222,222,1);
     padding-bottom: 8%;
     border:20px solid white;
@@ -450,3 +478,71 @@ h5{
 .contact p{
     font-size: 16px;
 }
+
+.cils-texte{
+    box-shadow: 4px 4px 25px -3px rgba(186,179,186,1);
+    margin-top: 1%;
+    width: 27%;
+    height: auto;
+    padding: 1.5%;
+    word-wrap: break-word; 
+}
+
+   @media only screen and (max-width:1338px) {
+    .imgdesyeux{
+    margin: auto;
+    }
+    .cils-texte{
+        margin:auto;
+    }
+   }
+
+   @media only screen and (max-width:1230px) {
+    .prestation-item{
+    width: 100%;
+    }
+    .carte_row img{
+        width: 64%;
+        height: auto;
+    }
+}
+
+.lamap{
+    margin-left: 50px;
+}
+
+@media only screen and (max-width:1138px) {
+    #main-area{
+         width: 100%;
+    }
+    #area1, .lamap{
+        margin:auto;
+        padding-top: 5%;
+    }
+}
+
+.texte-transparent{
+                    position:absolute;
+                    background-color:#F9F9F9;
+                    width: 38%;
+                    height: auto;
+                    margin-left: 55%;
+                    margin-top: 10%;
+                    background-color: rgba(255, 255, 255, 0.815);
+                    font-size: 1.4vw;
+                    padding: 5px;
+                    padding-bottom: 28px;
+}
+
+
+        @media only screen and (max-width:1242px) {
+            .flex-item{
+             width: auto;
+             margin: auto;
+             padding-bottom: 5%;
+             }
+             .flex-item img{
+                 margin-top: 15%;
+                 margin-bottom: 10%;
+             }
+} 

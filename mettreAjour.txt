@@ -1,0 +1,67 @@
+.cils-texte{
+    box-shadow: 4px 4px 25px -3px rgba(186,179,186,1);
+    margin-top: 1%;
+    width: 27%;
+    height: auto;
+    padding: 1.5%;
+    word-wrap: break-word; 
+}
+
+   @media only screen and (max-width:1338px) {
+    .imgdesyeux{
+    margin: auto;
+    }
+    .cils-texte{
+        margin:auto;
+    }
+   }
+
+   @media only screen and (max-width:1230px) {
+    .prestation-item{
+    width: 100%;
+    }
+    .carte_row img{
+        width: 68%;
+        height: auto;
+    }
+}
+
+.lamap{
+    margin-left: 50px;
+}
+
+@media only screen and (max-width:1138px) {
+    #main-area{
+         width: 100%;
+    }
+    #area1, .lamap{
+        margin:auto;
+        padding-top: 5%;
+    }
+}
+
+.texte-transparent{
+                    position:absolute;
+                    background-color:#F9F9F9;
+                    width: 38%;
+                    height: auto;
+                    margin-left: 55%;
+                    margin-top: 10%;
+                    background-color: rgba(255, 255, 255, 0.815);
+                    font-size: 1.4vw;
+                    padding: 5px;
+                    padding-bottom: 28px;
+}
+
+
+        @media only screen and (max-width:1242px) {
+            .flex-item{
+             width: auto;
+             margin: auto;
+             padding-bottom: 5%;
+             }
+             .flex-item img{
+                 margin-top: 15%;
+                 margin-bottom: 10%;
+             }
+} 
