@@ -1,13 +1,25 @@
-.menu{
-    width:100%;
-    position:fixed;
-    height:17.5%;
-    font-family: "Open Sans",Arial,sans-serif;
-    background-color: white;
-    margin-top:-1%;
-    padding-top:1%;   
-    z-index: 999;
-}
+
+.autour{
+    width: 80%;
+    margin:auto;
+    }
+    .rubriques a{
+        padding: 10PX;
+        color: grey;
+    }
+
+    .bloc2{
+        margin-top: 1.5%;
+        display:flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+
+    .header a{
+        color:orangered;
+    }
+
 .flex-container {   
     box-shadow: 0px 17px 71px -8px rgba(189,187,189,1);
     margin-top:10%;
@@ -20,16 +32,18 @@
 }       
 .flex-item {
     line-height:190%;
-    width: 450px;
+    width: 40%;
     margin-top: 10px;
     color: grey;
     word-wrap: break-word;
-    margin-left: 0;
     margin-bottom: 4%;
     font-size: 17px;
     font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
     padding-right: 20px;
-}       
+} 
+.flex-container img{
+  width: 100%;
+}
 .tarif{
     background-image: linear-gradient(90deg,#f2f4f3 0%,rgba(242,244,243,0.35) 100%),
     url(https://maquillagepermanentnice.fr/wp-content/uploads/2018/10/makeup-artist-03.jpg);
@@ -49,7 +63,6 @@ a:hover{
 }
 hr{
     margin-top:2%;
-    margin-bottom: 0;
     width: 100%;
     height: 1px;
     background-color:#F5F2EF;
@@ -87,27 +100,19 @@ hr{
     opacity: 1;
     right: 0;
 }   
-.autour{
-    width: 90%;
-    margin:auto;
-   
-}
-body{
-    background-color:white;
-}
+
 .prestation-container{
     display: flex;
     flex-wrap: wrap;
-    align-items: flex-end;
-    flex-direction: row;
     width: 80%;
     margin:auto;
-    color: grey; 
-    font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
-    font-size: 19px;
-    margin-bottom: 3%;
-
+    justify-content: space-around;
+    color: orangered;
+    text-align: center;
+    margin-bottom: 8%;
 }
+
+
 .colonne{
     margin:auto;
     
@@ -156,17 +161,7 @@ margin:auto;
 .respect{
     text-align: center;
 }
-.prestation-item{
-    text-align: center;
-    width: 300px;
-    word-wrap: break-word;
-    margin-left: 0;
-    margin-bottom: 4%;
-    font-size: 17px;
-    font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
-    padding-right: 20px;
-    
-}
+
 .img{
     box-shadow: 11px 10px 0px 0px rgba(201,201,201,1);
 }
@@ -201,10 +196,9 @@ margin:auto;
     font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
     padding-right:10px;
 }
-.container span {
-	display: inline-block;
-	width: 300px;
-}
+
+
+
 .texte{
     margin-top:1%;
     font-family: "Times New Roman";
@@ -216,15 +210,7 @@ margin:auto;
     font-size: 24px;
     color:black;
 }
-.container {
-    width: 100%;
-    display: flex;
-    flex-wrap:wrap;
-    justify-content: space-between;
-}
-.container .letexte {
-    width: 65%;
-}
+
 #main-area{
     margin:auto;
     font-size: 100%;
@@ -301,22 +287,16 @@ form{
     display: flex;
     flex-wrap: wrap;
 }
+
 .lepinceau{
     width: 63%;
 }
 .lepinceau img{
     width: 100%;
 }
-.cils-texte{
-    box-shadow: 4px 4px 25px -3px rgba(186,179,186,1);
-    margin-top: 1%;
-    margin-right: 16%;
-    width: 27%;
-    height: 54%;
-    padding: 1.5%;
-    word-wrap: break-word; 
-}
-.carte_row,.carte_row2{
+
+
+.carte_row{
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
@@ -324,14 +304,8 @@ form{
     text-align: center;
     font-size:25px;
     font-family:'Playfair Display SC',Georgia,"Times New Roman",serif;
-    margin-bottom: 5%;
-    width: 100%;
-    
-    
 }
-.carte_row img,.carte_row2 img{
-    box-shadow: 11px 10px 0px 0px rgba(201,201,201,1);
-}
+
 .tarifs{
     box-shadow: 10px 21px 33px 7px rgba(222,222,222,1);
     padding-bottom: 8%;
@@ -444,15 +418,7 @@ h5{
     position: relative;
     max-width: 100%;
 }
-.carte_row{
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: space-around;
-    text-align: center;
-    font-size:25px;
-    font-family:'Playfair Display SC',Georgia,"Times New Roman",serif;
-}
+
 .tarifs{
     box-shadow: 10px 21px 33px 7px rgba(222,222,222,1);
     padding-bottom: 8%;
@@ -479,33 +445,26 @@ h5{
     font-size: 16px;
 }
 
+
+
 .cils-texte{
     box-shadow: 4px 4px 25px -3px rgba(186,179,186,1);
     margin-top: 1%;
-    width: 27%;
-    height: auto;
+    width: 30%;
+    height: 50%;
     padding: 1.5%;
     word-wrap: break-word; 
 }
 
-   @media only screen and (max-width:1338px) {
-    .imgdesyeux{
-    margin: auto;
-    }
-    .cils-texte{
-        margin:auto;
-    }
-   }
-
-   @media only screen and (max-width:1230px) {
-    .prestation-item{
-    width: 100%;
-    }
-    .carte_row img{
-        width: 64%;
-        height: auto;
-    }
+.container {
+    margin-top: 5%;
+    width: 90%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
+
+
 
 .lamap{
     margin-left: 50px;

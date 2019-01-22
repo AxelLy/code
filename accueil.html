@@ -2,29 +2,12 @@
 <html lang="fr">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <head>
-                <style>
-            
-   .cils-texte{
-    box-shadow: 4px 4px 25px -3px rgba(186,179,186,1);
-    margin-top: 1%;
-    width: 27%;
-    height: auto;
-    padding: 1.5%;
-    word-wrap: break-word; 
-}
-
-   @media only screen and (max-width:1338px) {
-    .imgdesyeux{
-    margin: auto;
-    }
-    .cils-texte{
-        margin:auto;
-    }
-   }
-
-   @media only screen and (max-width:1230px) {
+            <link rel="stylesheet" href="css/style1.css">
+                <style>   
+                  @media only screen and (max-width:980px) {
     .prestation-item{
     width: 100%;
+    display: block;
     }
     .carte_row img{
         width: 68%;
@@ -32,36 +15,49 @@
     }
 }
 
+@media only screen and (max-width:930px) {
+    .container{
+        width: 100%;
+        justify-content: space-around;
+    }
+}
 
 
- </style>
-                <link rel="stylesheet" href="css/style1.css">
+                    
+                </style>
+                
                 <title>Accueil</title>
             </head>
             <body>
+    <div class="autour">
+                    <div>
+                        <div class="header">
+                                    <a>    <span>&#9742;</span>&nbsp;04 89 03 66 93</a>
+                                <a><span>&#9993;</span>&nbsp;sidonie@maquillagepermanentnice.fr</a>
+                                    <a><strong><span style="font-size:20px">f</span></strong></a>
+                        </div>      
+                            
+            <div class ="bloc2">
+                               <div class="laimage"> <img src="images/LogoSidonieMenu.png" alt=""
+                                height="65"
+                                width="117"/></div>
+                            
 
-                    <div class="menu">
-                            <div style="margin-left: 200px; color: #e55718; font-size: 14px">
-                        
-                                    <span>&#9742;</span>&nbsp;04 89 03 66 93
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<span>&#9993;</span>&nbsp;sidonie@maquillagepermanentnice.fr
-                                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<strong><span style="font-size:20px">f</span></strong>
-                            </div>
-                            <img src="images/LogoSidonieMenu.png" alt=""
-                            height="65"
-                            width="117"
-                            style="margin-left:200px; margin-top: 15px; position:absolute"/>
-                        
-                            <div style=" padding-left: 50%;margin-top:40px; font-size: 16px">
-                                <a href="accueil.html"  style="color:#e55718">Accueil</a>&nbsp;&nbsp;&nbsp;
-                                <a href="institut.html">L'institut</a>&nbsp;&nbsp;&nbsp;
-                                <a href="prestations.html">Prestations</a>&nbsp;&nbsp;&nbsp;
-                                <a href="tarifs.html">Tarifs</a>&nbsp;&nbsp;&nbsp;
-                                <a href="marques.html">Les marques</a>&nbsp;&nbsp;&nbsp;
-                                <a href="contact.html">Contact</a>
-                            </div>
-                            <hr>
-                            </div>
+
+                        <div class="rubriques">
+                                     <a href="accueil.html" style="color:orangered">Accueil</a>
+                                    <a href="institut.html">L'institut</a>
+                                    <a href="prestations.html">Prestations</a>
+                                    <a href="tarifs.html">Tarifs</a>
+                                    <a href="marques.html">Les marques</a>
+                                    <a href="contact.html">Contact</a>
+                        </div>
+            </div>
+                            
+                    </div>
+    </div>
+                    <hr> 
+
                         
                         
                         
@@ -69,8 +65,8 @@
                                 <div class="lelogo">   
                                     <a style="font-size: 3.5vw;color:black;">S I D O N I E</a><br/>
                                     <a style ="margin-left: 70px; font-size: 2vw; color:black">Institut de beauté</a>
-                                    <br/><br/><br/>
-                                    <img src="images/accueil/LogoSidonie.png" alt=""> <br/><br/><br/><br/>
+                                    
+                                    <img src="images/accueil/LogoSidonie.png" alt="">
                                    <div style="margin-left: 100px;"> <a class="bouton"><span>Prendre rendez-vous!</span></a></div>
                                 </div>
 
@@ -78,17 +74,21 @@
                                 <img src="images/accueil/pinceau.jpg" alt=""></div>
 
                             </div>
+                        
+                        
+                     
+                           
 
-
-                            <br/><br/><br/><br/>
+                        
                             
                             <div class="container">
-                                <img class="imgdesyeux"  src="images/accueil/yeux.jpg" alt="">
+                                <div>
+                                <img  src="images/accueil/yeux.png" style="max-width:100%;"alt=""></div>
                                 <div class="cils-texte">
                                     <div class="titre" style="font-family: 'Open Sans'; ">
-                                    Pour être belle à tous moments de la racine de vos cheveux à la pointe de <br/>vos pieds!
+                                    Pour être belle à tous moments de la racine de vos cheveux à la pointe de vos pieds!
                                     <br/></div><br/>
-                                    <div class="texte" style="font-size: 1.5vw; line-height: 29px;">
+                                    <div class="texte" style="line-height: 29px;">
                                     Dans un environnement raffiné et chaleureux, Sidonie Bonnefoi vous
                                     accueillent, pour mettre au service de votre bien-être l’excellence de son
                                     <br/><br/>
@@ -96,21 +96,22 @@
                                     Découvrez notre boutique en ligne c’est par </div>
                                 </div>
                             </div>
-                            <br/><br/><br/><br/>
-                            <div style="text-align: center"><a class="bouton"><span>Découvrez nous!</span></a></div>
-                            <br/><br/>
                             
-                            <div class="titre" style="text-align: center">DES SOINS POUR TOUT LE <br/>CORPS</div>
+
+                            <div style="text-align: center; margin-top: 5%;"><a class="bouton"><span>Découvrez nous!</span></a></div>
                             
                             
+                            <div class="titre" style="text-align: center">DES SOINS POUR TOUT LE CORPS</div>
                             
                             
                             
-                            <div class="autour"><br/><br/><br/><br/>
                             
-                                <div class="prestation-container" style=" justify-content: space-between; color: orangered;">
+                            
+                            <div class="autour">
+                            
+                                <div class="prestation-container" style="margin-top: 5%">
                                     <div class="prestation-item">
-                                        EPILATION<br/><br/><img src="images/accueil/1.png" alt="">
+                                            EPILATION<br/><br/><img src="images/accueil/1.png" alt="">
                                     </div>
                                     <div class="prestation-item">
                                             SOINS MAINS<br/><br/><img src="images/accueil/2.png" alt="">
@@ -121,26 +122,24 @@
                                 </div>
                             
                             
-                                <br/><br/><br/>
+
                             
                             
-                            
-                                <ul class="prestation-container" style="  justify-content: space-between; color: orangered;">
-                                    <li class="prestation-item">
+                                <div class="prestation-container">
+                                    <div class="prestation-item">
                                             BEAUTE DES YEUX<br/><br/><img src="images/accueil/4.png" alt="">
-                                    </li>
-                                    <li class="prestation-item">
+                                    </div>
+                                    <div class="prestation-item">
                                             SOINS VISAGE<br/><br/><img src="images/accueil/5.png" alt="">
-                                    </li>
-                                    <li class="prestation-item">
+                                    </div>
+                                    <div class="prestation-item">
                                             SOINS CORPS<br/><br/><img src="images/accueil/6.png" alt="">
-                                    </li>
-                                </ul>
+                                    </div>
+                                </div>
                             
                             
                                 <div style="text-align: center"><a class="bouton"><span>En savoir plus</span></a></div>
-                                    <br/><br/><br/><br/><br/><br/><br/><br/>
-                            
+                                
                             
                                     <h1 style="text-align: center"><br/><br/> CARTES CADEAUX<br/></h1>
                                     <div class="carte_row">
