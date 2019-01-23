@@ -1,85 +1,153 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="fr">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <head>
-            <link rel="stylesheet" href="css/style1.css">
-                <title>mENU</title>
-            </head>
-            <body>
-    <div class="autour">
-                    <div>
-                        <div class="header">
-                                    <a>    <span>&#9742;</span>&nbsp;04 89 03 66 93</a>
-                                <a><span>&#9993;</span>&nbsp;sidonie@maquillagepermanentnice.fr</a>
-                                    <a><strong><span style="font-size:20px">f</span></strong></a>
-                        </div>      
-                            
-            <div class ="bloc2">
-                               <div class="laimage"> <img src="images/LogoSidonieMenu.png" alt=""
-                                height="65"
-                                width="117"/></div>
-                            
+    <head>  
+            <meta name="viewport" content="width=device-width, initial-scale=1.0">
+            <title>L'institut</title>
+            <style>
+                .autour{
+                    width: 80%;
+                    margin:auto;
+                    }
+                    .rubriques a{
+                        padding: 10PX;
+                        color: grey;
+                    }
+
+                    .bloc2{
+                        margin-top: 1.5%;
+                        display:flex;
+                        justify-content: space-between;
+                        align-items: center;
+                    }
 
 
-                        <div class="rubriques">
-                                     <a href="accueil.html">Accueil</a>
-                                    <a href="institut.html" style="color:orangered">L'institut</a>
-                                    <a href="prestations.html">Prestations</a>
-                                    <a href="tarifs.html">Tarifs</a>
-                                    <a href="marques.html">Les marques</a>
-                                    <a href="contact.html">Contact</a>
-                        </div>
-            </div>
+                .header a{
+                    color:orangered;
+                }
+                .texte-transparent{
+                    position: absolute;
+                    background-color:#F9F9F9;
+                    width: 38%;
+                    margin-left: 45%;
+                    height: auto;
+                    margin-top: 2%;
+                    background-color: rgba(255, 255, 255, 0.815);
+                    font-size: 19px;
+                    padding: 5px;
+                    padding-bottom: 28px;
+                    
+                }
+                .conteneur{
+                    display:flex;
+                    flex-wrap: wrap;
+                    justify-content: space-around;
+                    width: 80%;
+                    margin:auto;
+                }
+                .element{
+                    margin-bottom: 4%;
+                }
+                .fond{
+                    padding-top: 8%;
+                    padding-left: 10%;
+                    background-image: url("images/institut/fond.jpg");
+                    background-repeat: no-repeat;
+                    background-size:cover;
+                    display: flex;
+                    flex-wrap: wrap;
+                    flex-basis: 600px;
+                }
+                .Instcontainer{
+                    background-color: white;
+                    height: 100%;
+                    width: 69%;
+                    flex-direction: column;
+                    overflow: hidden;
+                    display: flex;
+                    
+                }
+                .Instcontainer span{
+                    padding: 3%;
+                    padding-bottom: 0%;
+                }
+                .Instcontainer img{
+                    width: 100%;
+                    height: auto;
+                }
+                @media only screen and (max-width:980px){
+                    .texte-transparent{
+                        position: relative;
+                        margin-left: 0;
+                        width: 100%;
+                    }
+                }
+            </style>
+    </head>
+    <body>
+        
+                <div class="autour">
+            <div>
+                <div class="header">
+                    <a><span>&#9742;</span>&nbsp;04 89 03 66 93</a>
+                    <a><span>&#9993;</span>&nbsp;sidonie@maquillagepermanentnice.fr</a>
+                    <a><strong><span style="font-size:20px">f</span></strong></a>
+                </div>      
                             
+                <div class ="bloc2">
+                    <div class="laimage"> 
+                        <img src="images/LogoSidonieMenu.png" alt=""
+                        height="65"
+                        width="117"/>
                     </div>
-    </div>
-                    <hr> 
+                            
 
-        <br/><br/><div class="titre" style="text-align: center"><h1>L'INSTITUT</h1></div><br/><br/><br/><br/>
-          
-        <div class="texte-transparent"><br/><br/>
-            <div style="text-align: center"><strong>   Votre institut de beauté
-                <br/><br/>
-                « Sidonie Maquillage Permanent »</strong>
-                <br/><br/>
-                à Nice vous accueille dans un cadre chaleureux et relaxant au service de votre bien être.
-                <br/><br/>
-                Notre équipe de passionnés est à votre écoute et vous 
-                conseille sur les techniques et les meilleurs soins à vous apporter.
-                <br/><br/>
-                Notre salon s’occupe de vous de la tête aux pieds et vous 
-                propose une large gamme de soins pour votre regard, votre visage et
-                 votre corps dans son ensemble. 
+
+                    <div class="rubriques">
+                        <a href="accueil.html" >Accueil</a>
+                        <a href="institut.html">L'institut</a>
+                        <a href="prestations.html">Prestations</a>
+                        <a href="tarifs.html" style="color:orangered">Tarifs</a>
+                        <a href="marques.html">Les marques</a>
+                        <a href="contact.html">Contact</a>
+                    </div>
+                </div>                   
             </div>
         </div>
+        <hr> 
+        <div class="titre" style="text-align: center"><h1>L'INSTITUT</h1></div>
+          
+       
         <div class="fond">
-            <div class="Instcontainer">
+            <div class="Instcontainer">   
                 <span><img src="images/institut/1.png" alt="" ></span>
                 <span><img src="images/institut/2.png" alt="" ></span>  
             </div>
+            <div class="texte-transparent">
+                <div style="text-align: center">
+                    <p>
+                        <strong>Votre institut de beauté<br/><br/>   
+                        « Sidonie Maquillage Permanent »</strong><br/><br/>   
+                        à Nice vous accueille dans un cadre chaleureux et relaxant au service de votre bien être.<br/><br/>
+                        Notre équipe de passionnés est à votre écoute et vous 
+                        conseille sur les techniques et les meilleurs soins à vous apporter.<br/><br/>
+                        Notre salon s’occupe de vous de la tête aux pieds et vous 
+                        propose une large gamme de soins pour votre regard, votre visage et
+                        votre corps dans son ensemble.
+                    </p> 
+                </div>
+            </div>
         </div>
 
 
 
 
-<br/><br/><br/><br/><h1 style="text-align: center">LE SALON</h1><br/><br/>
-<div style="margin-left: 11%; margin-right:14%;">
-    <ul class="prestation-container" style=" justify-content: space-between; color: orangered;">
-            <li class="institut-item">
-<img src="images/institut/3.png" width="220" height="160" alt="">
-            </li>
-            <li class="institut-item">
-<img src="images/institut/4.png" width="220" height="160" alt="">
-            </li>
-            <li class="institut-item" >
-<img src="images/institut/5.png" width="220" height="160" alt="">
-            </li>
-            <li class="institut-item">
-<img src="images/institut/6.png" width="220" height="160" alt="">
-            </li>
-        </ul>
-
-</div>
+<h1 style="text-align: center">LE SALON</h1>
+<div class="conteneur">
+        <div class="element"><img src="images/institut/3.png" width="220" height="160" alt=""></div>
+        <div class="element"><img src="images/institut/4.png" width="220" height="160" alt=""></div>
+        <div class="element"><img src="images/institut/5.png" width="220" height="160" alt=""></div>
+        <div class="element"><img src="images/institut/6.png" width="220" height="160" alt=""></div>  
+    </div>
 
 <div class="contact">
         <h1>Contactez nous !</h1>
@@ -87,7 +155,7 @@
         <p><span style="font-weight: 400;">49 Bld de Cessole</span></p>
         <p><span style="font-weight: 400;">06100 NICE</span></p>
         <p><a style="color: #e55718;" href="mailto:sidonie@maquillagepermanentnice.fr">sidonie@maquillagepermanentnice.fr</a></p>
-        <p><a style="color: #e55718;" href="tel:0489036693">04 89 03 66 93</a></p><br/><br/>
+        <p><a style="color: #e55718;" href="tel:0489036693">04 89 03 66 93</a></p>
         <a class="bouton" href="#"><span style="text-align: center">Contactez-nous !</span></a>
     </div>
       
@@ -102,7 +170,7 @@
             </div>
     </div>
         
-        <div class="footer" style="background-color:#ACACAC"><br/>
+        <div class="footer" style="background-color:#ACACAC">
                 <div class="autour">
                      © 2018 Sidonie Institut | Tous droits réservés.
                 </div>
