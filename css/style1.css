@@ -14,11 +14,10 @@
         justify-content: space-between;
         align-items: center;
     }
-
-
     .header a{
         color:orangered;
     }
+
 
 .flex-container {   
     box-shadow: 0px 17px 71px -8px rgba(189,187,189,1);
@@ -68,6 +67,8 @@ hr{
     background-color:#F5F2EF;
     border: none; /*on supprime le style par défaut*/
 }   
+
+
 .bouton{
     color:#e55718;
     font-size: 20px;
@@ -101,6 +102,7 @@ hr{
     right: 0;
 }   
 
+
 .prestation-container{
     display: flex;
     flex-wrap: wrap;
@@ -109,58 +111,10 @@ hr{
     justify-content: space-around;
     color: orangered;
     text-align: center;
-    margin-bottom: 8%;
+    margin-bottom: 10%;
 }
 
 
-.colonne{
-    margin:auto;
-    
-}
-.colonne1{
-   text-align: center;
-   width: 68%;
-   margin:auto;
-}
-.colonne2{
-    margin:auto;
-    width: 80%;
-}
-.colonne3{
-   text-align: center;
-   margin:auto;
-}
-.colonne4{
-    margin:auto;   
-}
-.colonne5{
-text-align: center;
-width: 60%;
-margin:auto;
-}
-.colonne6{
-    margin:auto;
-    width: 60%;
-}
-.colonne7{
-text-align: center;
-margin:auto;
-}
-.colonne8{
-    margin: auto;
-    justify-content: space-between;
-}
-.colonne10,.colonne12{
-    width: 70%;
-}
-.colonne10{
-    width: 35%;
-    margin: auto;
-    float:right;
-}
-.respect{
-    text-align: center;
-}
 
 .img{
     box-shadow: 11px 10px 0px 0px rgba(201,201,201,1);
@@ -207,9 +161,132 @@ margin:auto;
     line-height: 23px;
 }
 .titre{
-    font-size: 24px;
-    color:black;
+    FONT-size: 22px;
+    font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
+    padding-bottom: 10px;
+    color: #333;
+    text-align: center;
+    margin-top : 10%;
+    word-wrap: break-word;
 }
+
+body{
+    color: #666;
+    font-family: "Open Sans",Arial,sans-serif;
+    font-size: 14px;
+    }
+    p{
+        font-weight: 400;
+    }
+    h1,h4,h2,h3{
+        font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
+        font-weight: 500;
+        color: #333;
+        padding-bottom: 10px;
+        text-align: center;
+    }
+    .row9 h3,.row10 h3,.row11 h3,.row12 h3{
+        text-align: left;
+    }
+    h3{
+        font-size: 24px;
+    }
+    h2{
+        font-size: 35px;
+    }
+    h1{
+        font-size: 50px;
+    }
+    h4{
+        font-size: 18px;
+    }
+    .row1 img,.row2 img,.row3 img,.row4 img,.RowI img,.row7 img{
+        box-shadow: 11px 10px 0px 0px rgba(201,201,201,1);
+    }
+    .main-content{
+        width: 73%;
+        margin:auto;
+    }
+    .conteneur1,.conteneur2,.conteneur3,.conteneur4,.contact{
+        text-align: center;
+    }
+    .row4{
+        text-align: left;
+    }
+    .row4 ul{
+        padding-left: 20px;
+    }
+    .rowB{
+        padding: 10%;
+    }
+    .row1,.row2,.row3,.row4,.row7,.row8,.row10,.row11,.row12,.row6{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        padding-bottom: 2%;
+    }
+    .colonne1,.colonne8,.colonne14{
+        width: 55%;
+        font-size: 19px;
+        text-align: left;
+        justify-self: center;
+        margin:auto;
+        flex-basis: 600px;    
+    }
+    .colonne6,.colonne11{
+        margin:auto;
+    }
+    .colonne7,.colonne13{
+        align-self:center;
+    }
+    .colonne2{
+        font-size:19px;
+        width: 70%;
+        flex-basis: 600px;
+        
+    }
+    .colonne3{
+        margin:auto;
+    }
+    .row5,.row9{
+        text-align: left;
+        font-size: 19px;
+    }
+    .row6{
+        text-align: left;
+    }
+    .colonne4,.colonne12{
+        text-align: left;
+        font-size:14px;
+        width: 55%;
+        flex-basis: 600px;
+    }
+    
+    .contact{
+        text-align: center;   
+        font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
+        font-weight: 500;
+        line-height: 1.7em;
+        padding-top: 10%;
+        padding-bottom: 10%;
+    }
+    .contact h1{
+        font-size: 50px;
+    }
+    .contact p{
+        font-size: 16px;
+    }
+    .footer{
+        height: 55px;
+        width: 100%;
+        color:white;
+    }
+    .msgfooter div {
+        display: inline-block;
+    }
+    img{
+        max-width: 100%;
+    }
 
 #main-area{
     margin:auto;
@@ -225,14 +302,7 @@ margin:auto;
     flex-wrap:wrap;
     align-items: center;  
 }
-.titre{
-    FONT-size: 22px;
-    font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
-    padding-bottom: 10px;
-    color: #333;
-    text-align: center;
-    margin-top : 10%;
-}
+
 #text-inner{
     text-align: center;
 }
@@ -310,6 +380,7 @@ form{
     box-shadow: 10px 21px 33px 7px rgba(222,222,222,1);
     padding-bottom: 8%;
     border:20px solid white;
+    margin-top: 5%;
 }
 .titres{
     margin-left:10%;
@@ -339,10 +410,7 @@ h5{
 .epilation .forfaits{
     margin-bottom: 4.75%;
 }
-.salon-container{
-    width:100%;
-    justify-content: space-between;
-}
+
 .lelogo img{
     height: 27%;
     width: 90%;
@@ -350,46 +418,59 @@ h5{
 .lepinceau img{
     width: 100%;
 }
-.onglerie,.beaute,.maquillage,.visage,.corps,.epilation{
 
-    margin-left:10%;
-    margin-right: 10%;
-    font-family: "Open Sans",Arial,sans-serif;
-
-}
 .epilation .forfaits{
     margin-bottom: 4.75%;
 }
-.beaute_PM,.prothesie,.deco,.maquillage_miss,.regard,.levre,.sourcil,.yeux,.retouche,.pause_C,.pause_s,.relax,.energie,.fermerte,.les_tarifs,.forfaits{
+.beaute_PM,.prothesie,.deco,.maquillage_miss,.regard,.levre,.sourcil,.yeux,.retouche,.pause_C,.pause_S,.relax,.energie,.fermerte,.les_tarifs,.forfaits{
     border: 1px solid lightgrey;
     word-wrap: break-word;
     margin-bottom: 2.75%;
 } 
+
+.placement_img{
+    border-width: 24px;
+    border-color: #ffffff;
+}
+.conteneur{
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 80%;
+    margin:auto;
+}
+.element{
+    margin-bottom: 4%;
+}
 .fond{
     padding-top: 8%;
     padding-left: 10%;
     background-image: url("../images/institut/fond.jpg");
-    height: 1209.8px;
     background-repeat: no-repeat;
     background-size:cover;
-    
-}
-.placement_img{
-    border-width: 24px;
-    border-color: #ffffff;
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 600px;
 }
 .Instcontainer{
     background-color: white;
     height: 100%;
     width: 69%;
-    display: flex;
     flex-direction: column;
     overflow: hidden;
+    display: flex;  
 }
 .Instcontainer span{
     padding: 3%;
     padding-bottom: 0%;
 }
+.Instcontainer img{
+    width: 100%;
+    height: auto;
+}
+
+
+
 .texte-transparent{
     position:absolute;
     background-color:#F9F9F9;
@@ -402,21 +483,6 @@ h5{
     padding-bottom: 5px;
     border:0px solid white;
     word-wrap: break-word;
-}
-
-.salon-container{
-    width:100%;
-    justify-content: space-between;
-}
-
-.Instcontainer img{
-    width: 100%;
-    height: auto;
-}
-.imgT{
-    display:inline-block;
-    position: relative;
-    max-width: 100%;
 }
 
 .tarifs{
@@ -468,6 +534,7 @@ h5{
 
 .lamap{
     margin-left: 50px;
+    max-width: 100%;
 }
 
 @media only screen and (max-width:1138px) {
@@ -481,16 +548,17 @@ h5{
 }
 
 .texte-transparent{
-                    position:absolute;
-                    background-color:#F9F9F9;
-                    width: 38%;
-                    height: auto;
-                    margin-left: 55%;
-                    margin-top: 10%;
-                    background-color: rgba(255, 255, 255, 0.815);
-                    font-size: 1.4vw;
-                    padding: 5px;
-                    padding-bottom: 28px;
+    position: absolute;
+    background-color:#F9F9F9;
+    width: 38%;
+    margin-left: 45%;
+    height: auto;
+    margin-top: 2%;
+    background-color: rgba(255, 255, 255, 0.815);
+    font-size: 19px;
+    padding: 5px;
+    padding-bottom: 28px;
+    
 }
 
 
@@ -505,3 +573,11 @@ h5{
                  margin-bottom: 10%;
              }
 } 
+
+@media only screen and (max-width:980px){
+    .texte-transparent{
+        position: relative;
+        margin-left: 0;
+        width: 100%;
+    }
+}
