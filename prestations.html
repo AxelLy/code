@@ -1,195 +1,37 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="fr">
+        
+
     <head>
-        <title>Les prestations</title>
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <style>
-            body{
-            color: #666;
-            font-family: "Open Sans",Arial,sans-serif;
-            font-size: 14px;
-            }
-            p{
-                font-weight: 400;
-            }
-            h1,h4,h2,h3{
-                font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
-                font-weight: 500;
-                color: #333;
-                padding-bottom: 10px;
-                text-align: center;
-            }
-            .row9 h3,.row10 h3,.row11 h3,.row12 h3{
-                text-align: left;
-            }
-            h3{
-                font-size: 24px;
-            }
-            h2{
-                font-size: 35px;
-            }
-            h1{
-                font-size: 50px;
-                
-            }
-            h4{
-                font-size: 18px;
-            }
-            .row1 img,.row2 img,.row3 img,.row4 img,.RowI img,.row7 img{
-                box-shadow: 11px 10px 0px 0px rgba(201,201,201,1);
-            }
-            .main-content{
-                width: 73%;
-                margin:auto;
-            }
-            .conteneur1,.conteneur2,.conteneur3,.conteneur4,.contact{
-                text-align: center;
-            }
-            .row4{
-                text-align: left;
-            }
-            .row4 ul{
-                padding-left: 20px;
-            }
-            .rowB{
-                padding: 10%;
-            }
-            .row1,.row2,.row3,.row4,.row7,.row8,.row10,.row11,.row12,.row6{
-                display: flex;
-                flex-wrap: wrap;
-                justify-content: space-between;
-                padding-bottom: 2%;
-            }
-            .colonne1,.colonne8,.colonne14{
-                width: 55%;
-                font-size: 19px;
-                text-align: left;
-                justify-self: center;
-                margin:auto;
-                flex-basis: 600px;    
-            }
-            .colonne6,.colonne11{
-                margin:auto;
-            }
-            .colonne7,.colonne13{
-                align-self:center;
-            }
-            .colonne2{
-                font-size:19px;
-                width: 70%;
-                flex-basis: 600px;
-                
-            }
-            .colonne3{
-                margin:auto;
-            }
-            .row5,.row9{
-                text-align: left;
-                font-size: 19px;
-            }
-            .row6{
-                text-align: left;
-            }
-            .colonne4,.colonne12{
-                text-align: left;
-                font-size:14px;
-                width: 55%;
-                flex-basis: 600px;
-            }
-            .bouton{
-                color:#e55718;
-                font-size: 20px;
-                background-color:transparent;
-                border :2px solid;
-                border-radius:3px;
-                padding: .6em 1.2em;   
-            }
-            .bouton span {
-                cursor: pointer;
-                display: inline-block;
-                position: relative;
-                transition: 0.5s;
-            }
-            .bouton span:after {
-                content: '\003e';
-                position: absolute;
-                opacity: 0;
-                top: 0;
-                transition: 0.5s;
-            }
-            .bouton:hover span {
-                color:#eee;
-                padding-right: 25px;       
-            }
-            .bouton:hover{
-                background-color:#e55718; 
-            }
-            .bouton:hover span:after {
-                opacity: 1;
-                right: 0;
-            }
-            .contact{
-                text-align: center;   
-                font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
-                font-weight: 500;
-                line-height: 1.7em;
-                padding-top: 10%;
-                padding-bottom: 10%;
-            }
-            .contact h1{
-                font-size: 50px;
-            }
-            .contact p{
-                font-size: 16px;
-            }
-            .footer{
-                height: 55px;
-                width: 100%;
-                color:white;
-            }
-            .msgfooter div {
-                display: inline-block;
-            }
-            img{
-                max-width: 100%;
-                height: auto;
-            }
-            .titre{
-                
-                word-wrap: break-word;
-            }
-        </style>
+        <link rel="stylesheet" href="css/style1.css">
+
     </head>
     <body>
-        <div class="autour">
-            <div>
-                <div class="header">
-                    <a><span>&#9742;</span>&nbsp;04 89 03 66 93</a>
-                    <a><span>&#9993;</span>&nbsp;sidonie@maquillagepermanentnice.fr</a>
-                    <a><strong><span style="font-size:20px">f</span></strong></a>
-                </div>      
-                            
-                <div class ="bloc2">
-                    <div class="laimage"> 
-                        <img src="images/LogoSidonieMenu.png" alt=""
-                        height="65"
-                        width="117"/>
+            <header class="header">
+                <div class="autour">
+                    <div class="haut">
+                        <a><span>&#9742;</span>&nbsp;04 89 03 66 93</a>
+                        <a><span>&#9993;</span>&nbsp;sidonie@maquillagepermanentnice.fr</a>
+                        <a><strong><span style="font-size:20px">f</span></strong></a>
                     </div>
-                            
-
-
-                    <div class="rubriques">
-                        <a href="accueil.html" >Accueil</a>
-                        <a href="institut.html">L'institut</a>
-                        <a href="prestations.html">Prestations</a>
-                        <a href="tarifs.html" style="color:orangered">Tarifs</a>
-                        <a href="marques.html">Les marques</a>
-                        <a href="contact.html">Contact</a>
-                    </div>
-                </div>                   
-            </div>
-        </div>
+                    <a href="" class="logo"><img src="images/LogoSidonieMenu.png" alt="" height="65" width="117"/></a>
+                    <input class="menu-btn" type="checkbox" id="menu-btn" />
+                    <label class="menu-icon" for="menu-btn"><span class="navicon"></span></label>
+                    <ul class="menu" style="padding-top:2%">
+                        <li><a href="accueil.html" style="color:orangered">Accueil</a></li>
+                        <li><a href="institut.html">L'institut</a></li>
+                        <li><a href="prestations.html">Prestations</a></li>
+                        <li><a href="marques.html">Les marques</a></li>
+                        <li><a href="tarifs.html">Tarif</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+            </header>
         <hr> 
+
+
+        
     <div class="main-content">
         <div class="conteneur1">
             <div class="titre"><h1>LES PRESTATIONS</h1></div>
