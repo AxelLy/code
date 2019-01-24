@@ -137,6 +137,7 @@
     display: flex;
     flex-wrap:wrap;
     justify-content: space-between;
+    margin-top: 8%;
 }       
 .flex-item {
     line-height:190%;
@@ -303,9 +304,7 @@ body{
     h2{
         font-size: 35px;
     }
-    h1{
-        font-size: 50px;
-    }
+
     h4{
         font-size: 18px;
     }
@@ -344,9 +343,11 @@ body{
     }
     .colonne6,.colonne11{
         margin:auto;
+        font-size: 19px;
     }
     .colonne7,.colonne13{
         align-self:center;
+        font-size: 19px;
     }
     .colonne2{
         font-size:19px;
@@ -370,18 +371,7 @@ body{
         width: 55%;
         flex-basis: 600px;
     }
-    
-    .contact{
-        text-align: center;   
-        font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
-        font-weight: 500;
-        line-height: 1.7em;
-        padding-top: 10%;
-        padding-bottom: 10%;
-    }
-    .contact h1{
-        font-size: 50px;
-    }
+
     .contact p{
         font-size: 16px;
     }
@@ -497,20 +487,6 @@ form{
 h5{
     color:#e55718;
 }
-.contact{
-    text-align: center;   
-    font-family: 'Playfair Display SC',Georgia,"Times New Roman",serif;
-    font-weight: 500;
-    line-height: 1.7em;
-    padding-top: 10%;
-    padding-bottom: 10%;
-}
-.contact h1{
-    font-size: 50px;
-}
-.contact p{
-    font-size: 16px;
-}
 .onglerie,.beaute,.maquillage,.visage,.corps,.epilation{
     margin-left:10%;
     margin-right: 10%;
@@ -613,12 +589,6 @@ h5{
     padding-top: 10%;
     padding-bottom: 10%;
 }
-.contact h1{
-    font-size: 50px;
-}
-.contact p{
-    font-size: 16px;
-}
 
 
 
@@ -637,6 +607,51 @@ h5{
     display: flex;
     flex-wrap: wrap;
     justify-content: space-between;
+}
+
+.tab input{
+    position: absolute;
+    opacity: 0;
+    z-index: -1;
+}
+.tab label {
+    color:#e55718;
+    position: relative;
+    display: block;
+    background-color: #f4f4f4;
+    padding: 20px;
+    font-weight: bold;
+    border: 1px solid #d9d9d9;
+}
+.tab input[type=checkbox] + label::before {
+    position: absolute;
+    color: #e54623;
+    right: 0;
+    left: 95%;
+    content: "+";
+    
+}
+.tab-content {
+    max-height: 0;
+    overflow: hidden;
+    background-color: #f4f4f4;
+    transition: 1s
+}
+.tab input:checked ~ .tab-content {
+    max-height: 100vh;
+}
+.tarifs{
+    width: 80%;
+    margin:auto;
+   
+}
+.main{
+    width: 80%;
+    margin:auto;
+    border:2px solid green;
+}
+.tab{
+    margin-bottom: 3%;
 }
 
 
